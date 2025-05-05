@@ -63,3 +63,7 @@ If there are no conflicts, it will fast-forward or create a merge commit.
 ```bash
 git push origin main
 ```
+
+### Summary
+
+Using a dedicated `development` branch is a best practice in Git-based workflows. It helps isolate in-progress changes from the stable `main` branch, promotes cleaner commit history, and allows for better testing, code review, and collaboration before merging into production-ready code.
